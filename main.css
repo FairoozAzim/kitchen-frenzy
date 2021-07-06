@@ -93,7 +93,7 @@ body {
 
 .container .description {
     width: 50%;
-    margin-left: 200px;
+    margin-left: 150px;
     margin-top: 40px;
 }
 
@@ -136,18 +136,19 @@ body {
 }
 
 .container .image {
-    width: 70%;
+    width: 50%;
 }
 
 #about-image {
     margin: 10px;
-    height: 700px;
-    width: 700px;
+    height: 500px;
+    width: 500px;
     border-radius: 50%;
+    margin-left: 100px;
 }
 
 #about-desc {
-    margin-right: 200px;
+    margin-right: 140px;
     line-height: 25px;
     width: 90%;
 }
@@ -232,7 +233,7 @@ body {
     height: 400px;
     padding: 50px;
     width: 80%;
-    margin-left: 150px;
+    margin-left: 100px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
