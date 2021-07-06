@@ -38,7 +38,7 @@ body {
     justify-content: center;
     position: absolute;
     margin-top: 220px;
-    left: 30%;
+    left: 38%;
     font-size: larger;
     font-weight: 700;
     color: rgb(56, 58, 59);
@@ -228,7 +228,7 @@ body {
     background-image: url(/images/photo-1547573854-74d2a71d0826.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 400px;
     padding: 50px;
     width: 80%;
     margin-left: 150px;
@@ -243,6 +243,7 @@ body {
     padding: 10px;
     border: none;
     border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .newsletter #submit {
@@ -254,6 +255,32 @@ body {
 
 .newsletter h1 {
     color: whitesmoke;
+}
+
+.newsletter a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+#instagram {
+    background-image: linear-gradient(to right, #405DE6, #5851DB, #833AB4, #C13584, #FCAF45, #FFDC80);
+    color: white;
+}
+
+#pinterest {
+    background-color: #E60023;
+    color: white;
 }
 
 .footer {
