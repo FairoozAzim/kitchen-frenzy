@@ -109,7 +109,7 @@ body {
 
 .container .description p {
     color: rgb(56, 58, 59);
-    font-size: 17px;
+    font-size: 15px;
     margin-bottom: 25px;
 }
 
@@ -148,7 +148,7 @@ body {
 
 #about-desc {
     margin-right: 200px;
-    line-height: 35px;
+    line-height: 25px;
 }
 
 .recipes .heading {
