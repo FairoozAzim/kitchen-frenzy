@@ -1,63 +1,119 @@
-body {
-    font-family: 'Poppins', Arial, sans-serif;
-    margin: 0;
-    height: 100%;
-    padding: 0;
-}
-
-.bg-image {
-    background-image: url(/images/cook-90-tuesday-Delicata-plus-escarole-07122017.jpg);
-    height: 400px;
-    background-size: cover;
-    padding: 0;
-    background-position: center top;
-    position: relative;
-}
-
-h1 {
-    text-align: center;
-    justify-content: center;
-    margin-top: 130px;
-    position: absolute;
-    left: 35%;
-    font-size: 50px;
-    color: whitesmoke;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-p {
-    text-align: center;
-    justify-content: center;
-    position: absolute;
-    margin-top: 220px;
-    left: 30%;
-    font-size: larger;
-    font-weight: 550;
-}
-
-.navbar ul {
-    list-style: none;
-    display: inline;
-    text-align: right;
-    margin: 10px;
-    padding: 10px;
-    overflow: hidden;
-    position: sticky;
-}
-
-.navbar li {
-    float: right;
-}
-
-.navbar li a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 20px;
-    margin: 20px;
-    color: white;
-}
-
-.navbar li a:hover {
-    text-decoration: underline;
-    transition: 2ms;
-}
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            height: 100%;
+            padding: 0;
+        }
+        
+        .bg-image {
+            background-image: url(/images/cook-90-tuesday-Delicata-plus-escarole-07122017.jpg);
+            height: 400px;
+            background-size: cover;
+            padding: 0;
+            background-position: center top;
+            position: relative;
+            margin-bottom: 100px;
+        }
+        
+        .bg-image h1 {
+            text-align: center;
+            justify-content: center;
+            margin-top: 130px;
+            position: absolute;
+            left: 35%;
+            font-size: 60px;
+            color: #ce6c72;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .bg-image p {
+            text-align: center;
+            justify-content: center;
+            position: absolute;
+            margin-top: 220px;
+            left: 30%;
+            font-size: larger;
+            font-weight: 700;
+            color: rgb(56, 58, 59);
+        }
+        
+        .navbar ul {
+            list-style: none;
+            display: inline;
+            text-align: right;
+            margin: 10px;
+            padding: 10px;
+            overflow: hidden;
+            position: sticky;
+        }
+        
+        .navbar li {
+            float: right;
+        }
+        
+        .navbar li a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 20px;
+            margin: 20px;
+            color: white;
+            font-weight: 500;
+            font-size: 20px;
+        }
+        
+        .navbar li a:hover {
+            text-decoration: underline;
+            transition: 2ms;
+        }
+        
+        .container {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(191, 63, 127, 0.1);
+        }
+        
+        .container .description {
+            width: 30%;
+            margin-left: 200px;
+            margin-top: 40px;
+        }
+        
+        .container .description h1 {
+            font-size: 50px;
+            font-weight: 600;
+            color: rgb(56, 58, 59);
+        }
+        
+        .container .description span {
+            color: #ca7b80;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .container .description p {
+            color: rgb(56, 58, 59);
+            font-size: 17px;
+        }
+        
+        .container .description a {
+            text-decoration: none;
+            background-image: linear-gradient( #cc95c0, #a382cc);
+            padding: 10px;
+            border-radius: 6px;
+            color: whitesmoke;
+            font-size: 20px;
+        }
+        
+        .description a:hover {
+            color: rgb(56, 58, 59);
+        }
+        
+        .container .image {
+            width: 60%;
+            margin-left: 10%;
+        }
+        
+        .container .image img {
+            width: 80%;
+        }
