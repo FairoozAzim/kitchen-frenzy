@@ -132,11 +132,11 @@ body {
 
 .container .image {
     width: 50%;
-    margin-left: 10%;
+    margin-left: 20px;
 }
 
 .container .image {
-    width: 80%;
+    width: 70%;
 }
 
 #about-image {
